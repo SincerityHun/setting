@@ -3,7 +3,7 @@ if has("syntax")
 endif
 
 set hlsearch
-set nu
+set nonumber
 set autoindent
 set ts=4
 set sts=4
@@ -15,5 +15,6 @@ set smartcase
 set smarttab
 set smartindent
 set ruler
-set fileendocings=utf8,euc-kr
+set fileencodings=utf8,euc-kr
 set clipboard=unnamedplus
+set mouse=a
